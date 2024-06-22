@@ -116,7 +116,7 @@ li{
 
 .menu--open {
     max-height: 100vh;
-    max-width: 100%;       
+    overflow: hidden;      
   }
 
 .menu--open .menu__backdrop {
