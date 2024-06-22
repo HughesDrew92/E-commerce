@@ -108,7 +108,10 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
+    visibility: hidden;
+    transition: all 300ms ease;
+    opacity: 0;
+    transform: translate(100%);
 }
 
 .menu--open {
